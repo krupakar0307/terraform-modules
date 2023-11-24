@@ -1,0 +1,1 @@
+This folder of terraform files creates seperate vpc with public subnet and provisions ec2 instances (2) in public subnet with nginx installed.

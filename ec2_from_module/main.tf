@@ -2,7 +2,7 @@ provider "aws" {
     region = lookup(var.region,terraform.workspace,var.region.dev)
 }
 module "ec2" {
-    source = "../ec2_module"
+    source = "../modules/ec2_module"
     my_region = lookup(var.region, terraform.workspace, var.region.dev)
     instace_count = lookup(var.instace_count, terraform.workspace, "1")
     instance_size = lookup(var.instance_size, terraform.workspace, "t2.micro")

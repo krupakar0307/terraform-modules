@@ -25,3 +25,6 @@ variable "tags" {
 variable "security_group_name" {
     default = "allow_tls"
 }
+variable "my_region" {
+    default = "ap-south-1"
+}

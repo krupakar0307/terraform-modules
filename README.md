@@ -1,5 +1,4 @@
 # terraform-modules
-This repo consists of terraform and the files are learnt during terraform course
 
 This repo consists of modules (ec2,lambda) and how to use them. 
 Each folder has it's own README for usage and this repo consists of modules, how can we utlize them, how to use terraform workspaces, how to perfom import for already available resources on cloud platforms.
